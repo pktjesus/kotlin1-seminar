@@ -16,6 +16,10 @@ data class User(
     var name: String? = null,
     var email: String? = null,
     var pwd: String? = null,
+//    val id: Long? = null,
+//    val name: String? = null,
+//    val email: String? = null,
+//    val pwd: String? = null,
 ) : UserDetails {
     var role = ROLE_TYPE.MEMBER
 
