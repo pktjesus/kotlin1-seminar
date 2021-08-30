@@ -8,5 +8,23 @@ class Kotlin1SeminarApplication
 
 fun main(args: Array<String>) {
     runApplication<Kotlin1SeminarApplication>(*args)
+
     println("Kotlin1SeminarApplication Hello World1")
 }
+
+fun test1(a : Int, b : String, c: Int = 10) : Unit {
+    /*
+    dff
+    /* */
+    */
+}
+
+fun test2(a : Int) {
+    println("zxcv")
+}
+
+fun test2(b : String) {
+
+}
+
+

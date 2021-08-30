@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Thymeleaf</title>
+    <link rel="stylesheet" th:href="@{/form/assets/css/main.css}">
+</head>
+<body>
+    <div class="">
+        <form class="">
+            <h1>Register Form</h1>
+            <div>
+                <div class="">name : </div>
+                <div><input class="" type="text" th:value="${user.name}"></div>
+            </div>
+            <div>
+                <div class="">email : </div>
+                <div><input class="" type="email" th:value="${user.email}"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

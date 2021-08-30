@@ -8,6 +8,7 @@ class Kotlin1SeminarApplicationTests {
 
     @Test
     fun contextLoads() {
+
     }
 
 }
